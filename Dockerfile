@@ -3,8 +3,7 @@ FROM node:latest
 RUN mkdir -p /app
 WORKDIR /app
 
-RUN apk update \
-    && apk add sqlite \
+RUN apk add sqlite \
     && apk add sqlite-dev
 
 COPY package.json .
