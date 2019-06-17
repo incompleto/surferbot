@@ -4,7 +4,7 @@
   "description": "Telegram bot for the Surf Club event.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "PORT=5000 node server.js"
   },
   "dependencies": {
     "anchorme": "^1.1.2",
