@@ -3,8 +3,7 @@ FROM node:latest
 RUN mkdir -p /app
 WORKDIR /app
 
-RUN apt-get install sqlite
-RUN apt-get install sqlite-dev
+RUN apt-get install sqlite3 libsqlite3-dev
 
 COPY package.json .
 COPY package-lock.json .
