@@ -4,7 +4,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 RUN apt-get update
-RUN apt-get install sqlite3 libsqlite3-dev
+RUN apt-get install sqlite3
 
 COPY package.json .
 COPY package-lock.json .
