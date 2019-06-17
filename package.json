@@ -1,26 +1,23 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "surferbot",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "Telegram bot for the Surf Club event.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "anchorme": "^1.1.2",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
-    "airtable": "^0.6.0",
-    "anchorme": "^1.1.2",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
     "express-ws": "^4.0.0",
     "metascraper": "^5.4.0",
     "metascraper-author": "^5.4.0",
+    "metascraper-description": "^5.4.0",
     "metascraper-image": "^5.4.0",
     "metascraper-title": "^5.4.0",
-    "metascraper-description": "^5.4.0",
     "metascraper-url": "^5.4.0",
     "sequelize": "^5.8.7",
     "sqlite3": "^4.0.8"
