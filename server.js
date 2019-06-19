@@ -213,3 +213,5 @@ app.ws("/", (ws, req) => {
 const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
 });
+
+listener.timeout = 120000;
