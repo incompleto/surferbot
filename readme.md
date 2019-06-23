@@ -1,6 +1,6 @@
-# Incompletobot
+# surferbot
 
-Incompleto's resident bot.
+Surferbot inbox page.
 
 ### Endpoints
 
