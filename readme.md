@@ -1,6 +1,6 @@
-# Surferbot
+# Incompletobot
 
-Telegram bot for the Surf 😊 Club event.
+Incompleto's resident bot.
 
 ### Endpoints
 
